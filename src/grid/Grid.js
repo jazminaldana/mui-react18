@@ -1,7 +1,5 @@
-import React from 'react';
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
-import { styled } from '@mui/material/styles';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 90 },

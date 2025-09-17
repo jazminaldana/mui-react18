@@ -1,12 +1,14 @@
+import { Box, Button } from '@mui/material';
 import './App.css';
-import DataGridSample from './grid/Grid.js';
+import DataGridSample from './grid/Grid';
 
 function App() {
   return (
-    <div className="App">
-      <h1>DATA GRID</h1>
+    <Box className="App">
+       <h1>TEST</h1>
+      <Button variant='contained'>Hello World</Button>
       <DataGridSample />
-    </div>
+    </Box>
   );
 }
 
